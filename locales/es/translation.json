@@ -32,5 +32,6 @@
     "Cashback": "Devolución de dinero",
     "Error": "Error",
     "Pay": "Pagar",
-    "About-description": "Lucky Wallet es su contenedor inteligente personal y seguro para almacenar y recolectar TON, NFT y Jetton. Los activos ubicados en Lucky Wallet se administran mediante una mini aplicación especialmente creada. El código del contrato inteligente ha sido verificado y el código fuente de los contratos está disponible de código abierto en el repositorio de github. El contenedor inteligente está fabricado en forma de NFT y, en consecuencia, puede transferirse o venderse a un nuevo propietario como un NFT normal. Sólo el propietario actual del NFT tiene acceso a los activos del contenedor."
+    "About-description": "Lucky Wallet es su contenedor inteligente personal y seguro para almacenar y recolectar TON, NFT y Jetton. Los activos ubicados en Lucky Wallet se administran mediante una mini aplicación especialmente creada. El código del contrato inteligente ha sido verificado y el código fuente de los contratos está disponible de código abierto en el repositorio de github. El contenedor inteligente está fabricado en forma de NFT y, en consecuencia, puede transferirse o venderse a un nuevo propietario como un NFT normal. Sólo el propietario actual del NFT tiene acceso a los activos del contenedor.",
+    "You don't have": "No tienes"
 }

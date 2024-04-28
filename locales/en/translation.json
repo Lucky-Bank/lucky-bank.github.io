@@ -32,5 +32,6 @@
     "Cashback": "Cashback",
     "Error": "Error",
     "Pay": "Pay",
-    "About-description": "Lucky Wallet is your personal and secure smart container for storing and collecting TON, NFT and Jetton. Assets located on Lucky Wallet are managed using a specially created Mini App. The smart contract code has been verified, and the source code of the contracts is available open source in the repository on github. The smart container is made in the form of an NFT and, accordingly, it can be transferred/sold to a new owner as a regular NFT. Only the current owner of the NFT has access to the assets in the container."
+    "About-description": "Lucky Wallet is your personal and secure smart container for storing and collecting TON, NFT and Jetton. Assets located on Lucky Wallet are managed using a specially created Mini App. The smart contract code has been verified, and the source code of the contracts is available open source in the repository on github. The smart container is made in the form of an NFT and, accordingly, it can be transferred/sold to a new owner as a regular NFT. Only the current owner of the NFT has access to the assets in the container.",
+    "You don't have": "You don't have"
 }
