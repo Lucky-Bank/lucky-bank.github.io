@@ -1,0 +1,13 @@
+{
+    "name": "Lucky Bank KLT Loans",
+    "description": "Кредитование под залог NFT на основе Krediton Lending Tools.",
+    "image": "https://lucky-bank.github.io/meta/lb-klt-collection-v-1-0-0-image.jpeg",
+    "external_url": "https://getgems.io/collection/lucky-nft",
+    "external_link": null,
+    "social_links": [
+        "https://t.me/krediton",
+        "http://t.me/lucky_ton_bank"
+    ],
+    "marketplace": "getgems.io",
+    "cover_image": "https://371704b6-82f9-4f64-833f-11ca879c8395.selstorage.ru/lucky-nft/wallet/bank_cover.png"
+}
