@@ -19,7 +19,9 @@
     "holderCollections": [
         "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
         "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f",
-        ""
+        "0:ce5ccf02db36853d150c29ee3abb888972bbbb91691ce7aaa8face44d578f064",
+        "0:69aa7ae386a9798db30bbcaa1ca8a14bd3f7cc40ec02b434250c214e886f7c59",
+        "0:afae85e4f21249e3febded007c957d1acff59db31d7aa82fd2572899c4991a5f"
     ],
     "holderCollectionsProps": [
         {
@@ -30,6 +32,23 @@
         {
             "limitAttributes": {
                 "default": 25
+            }
+        },
+        {
+            "limitAttributes": {
+                "default": 10
+            }
+        },
+        {
+            "limitAttributes": {
+                "default": 10
+            }
+        },
+        {
+            "limitAttributeName": "Generation",
+            "limitAttributes": {
+                "Lucky": 10,
+                "default": 0
             }
         }
     ],
