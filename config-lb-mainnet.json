@@ -1,0 +1,55 @@
+{
+    "isTestnet": false,
+    "appName": "Lucky Bank",
+    "appNameHeader": {
+        "from": "orange",
+        "to": "lime",
+        "deg": 120
+    },
+    "tonConnectProps": {
+        "manifestUrl": "https://lucky-bank.github.io/tonconnect-manifest.json",
+        "twaReturnUrl": "https://t.me/lucky_bankbot/App"
+    },
+    "tonApiProps": {
+        "clientSideKey": "AEOWW47RRNQWVMYAAAAKSUU76L4CUEXEOSYFYUH47LAWQI7ZHGPU2FQUWZSVN4QSZOBR5AI",
+        "serverUrl": "https://tonapi.io/v2/"
+    },
+    "bankAddress": "EQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvSm8",
+    "creditCollectionAddress": "0:bd4b59a017a9e1b75017dec59169c0390270613ce26d61c2513e5a28f2ea948d",
+    "holderCollections": [
+        "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
+        "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f",
+        ""
+    ],
+    "holderCollectionsProps": [
+        {
+            "limitAttributes": {
+                "default": 25
+            }
+        },
+        {
+            "limitAttributes": {
+                "default": 25
+            }
+        }
+    ],
+    "allowedCollections": [
+        "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
+        "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f"
+    ],
+    "allowedCollectionsProps": [
+        {
+            "verifier": "EQDapvDmHA4a1Obk2H4-y6-FaYfli4_wWg79jmSHcuIfBKSJ",
+            "size": 7,
+            "interest": 0.5,
+            "duration": 14
+        },
+        {
+            "verifier": "EQBRnsal80rlOP6tweQUPDKgrzqvgal4LTLZa1buSBBF5rpV",
+            "size": 2.5,
+            "interest": 1,
+            "duration": 10
+        }
+    ],
+    "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>"
+}
