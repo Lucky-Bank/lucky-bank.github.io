@@ -15,7 +15,9 @@
         "serverUrl": "https://tonapi.io/v2/"
     },
     "bankAddress": "EQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvSm8",
-    "creditCollectionAddress": "0:bd4b59a017a9e1b75017dec59169c0390270613ce26d61c2513e5a28f2ea948d",
+    "creditCollectionAddress": [
+        "0:bd4b59a017a9e1b75017dec59169c0390270613ce26d61c2513e5a28f2ea948d"
+    ],
     "holderCollections": [
         "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
         "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f",
