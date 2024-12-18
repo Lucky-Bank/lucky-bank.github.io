@@ -11,12 +11,12 @@
         "twaReturnUrl": "https://t.me/lucky_bankbot/App"
     },
     "tonApiProps": {
-        "clientSideKey": "AEOWW47RRNQWVMYAAAAKSUU76L4CUEXEOSYFYUH47LAWQI7ZHGPU2FQUWZSVN4QSZOBR5AI",
+        "clientSideKey": "AHOPL4UVTX653AIAAAAPQTBMQRXITK7EAVQGZ7LKHHUSJOYTVFIVYJ3S2GM7NU2S7AEYZVA",
         "serverUrl": "https://tonapi.io/v2/"
     },
     "bankAddress": "EQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvSm8",
     "creditCollectionAddress": [
-        "0:bd4b59a017a9e1b75017dec59169c0390270613ce26d61c2513e5a28f2ea948d"
+        "0:6e76d1c7efce5ee2563e498ac8de3f15c09bc03894e7a37739d3be9ba3f1d91f"
     ],
     "holderCollections": [
         "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
@@ -64,36 +64,52 @@
         "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
         "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f",
         "0:70f7efc07947aaedca914669b7c77c00ffae6a5b57d6941e0961bf275ce1a7e6",
-        "0:ddea8b9332c45ac9ddfedd2f65a85dcda373d6b91b366db8124a3bb4ba3823bf"
+        "0:ddea8b9332c45ac9ddfedd2f65a85dcda373d6b91b366db8124a3bb4ba3823bf",
+        "0:f25992284d7b8451a33a44eb672acd259ad909556120d6f5cc8a69bf03fadd30",
+        "0:bde7c0cf0ed0bb867069671d2de3a26a5d4d7ac3e3783cab419e9baca8526cfe"
     ],
     "allowedCollectionsProps": [
         {
-            "verifier": "EQDapvDmHA4a1Obk2H4-y6-FaYfli4_wWg79jmSHcuIfBKSJ",
+            "verifier": "EQAYE5EhcTa8IOfwmyu0CLwjkl6tRThYXk2hCLQ4pfXI66rg",
             "size": 7,
             "interest": 0.5,
             "duration": 14,
             "overPayment": 0.49
         },
         {
-            "verifier": "EQAtHLhfwqD6ohs5mC_La-RIYOWzQawKL1QJCSsNX-13l1Fj",
+            "verifier": "EQAjThiX5vabeRmXVM8LCFkFJVsjBcgu-FNO-Qf9dbXNlHbz",
             "size": 1.5,
             "interest": 0.5,
             "duration": 14,
             "overPayment": 0.105
         },
         {
-            "verifier": "EQAWFoGCMSv8kwWRBo9eH36oG1JX05oXdOxMzBao8tfemnWK",
+            "verifier": "EQACQt-dVeOLeYK0vq_KgLGnxikfEQ06hlNRcmY1UlKJweLU",
             "size": 4,
             "interest": 1,
             "duration": 20,
             "overPayment": 0.8
         },
         {
-            "verifier": "EQAc_YLEiJfONam8TjOUiicG5WdzQEBoURnQDLzkR5r1ymYh",
+            "verifier": "EQAULOpCXeIAXEmcK2hNeAu-rqli6k0YKSrSKpS7GYIwIhg5",
             "size": 1.5,
             "interest": 1,
             "duration": 14,
             "overPayment": 0.21
+        },
+        {
+            "verifier": "EQDkx-ERNm8dewaId4vPDxKhptchvWS9JzVJIO0Z6BgF8OaG",
+            "size": 2,
+            "interest": 1,
+            "duration": 14,
+            "overPayment": 0.28
+        },
+        {
+            "verifier": "EQDXtC4qRiHDwOnmT5uCD2z5m02QDDyJ8_5WMVVNROJ5is_M",
+            "size": 15,
+            "interest": 1,
+            "duration": 14,
+            "overPayment": 0.28
         }
     ],
     "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
