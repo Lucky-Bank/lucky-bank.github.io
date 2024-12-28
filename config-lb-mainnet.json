@@ -66,56 +66,92 @@
         "0:70f7efc07947aaedca914669b7c77c00ffae6a5b57d6941e0961bf275ce1a7e6",
         "0:ddea8b9332c45ac9ddfedd2f65a85dcda373d6b91b366db8124a3bb4ba3823bf",
         "0:f25992284d7b8451a33a44eb672acd259ad909556120d6f5cc8a69bf03fadd30",
-        "0:bde7c0cf0ed0bb867069671d2de3a26a5d4d7ac3e3783cab419e9baca8526cfe"
+        "0:bde7c0cf0ed0bb867069671d2de3a26a5d4d7ac3e3783cab419e9baca8526cfe",
+        "0:f2f4c01bd0540dd16a438bc3558a8dab10370ad9c48334378424e116f4f23222",
+        "0:cc0e55dc47d4dc219cd8349b7a66f8a0e8a76479c3cc7746f79be99581870b8b",
+        "0:d50b871fd3f1ad17a7a415b7238ba249626b8715d9e633b422bc7999351d0cd2",
+        "0:f71e8ffd2a8aa34a63737caa2b72d2ef4d569b9fd53f06a9e320fab5ed294bb3"
     ],
     "allowedCollectionsProps": [
         {
             "verifier": "EQAYE5EhcTa8IOfwmyu0CLwjkl6tRThYXk2hCLQ4pfXI66rg",
             "size": 7,
-            "interest": 0.5,
-            "duration": 14,
-            "overPayment": 0.49,
+            "interest": 0.3,
+            "duration": 21,
+            "overPayment": 0.441,
             "minimal": 0.1
         },
         {
             "verifier": "EQAjThiX5vabeRmXVM8LCFkFJVsjBcgu-FNO-Qf9dbXNlHbz",
             "size": 1.5,
-            "interest": 0.5,
-            "duration": 14,
-            "overPayment": 0.105,
+            "interest": 0.3,
+            "duration": 21,
+            "overPayment": 0.1,
             "minimal": 0.1
         },
         {
             "verifier": "EQACQt-dVeOLeYK0vq_KgLGnxikfEQ06hlNRcmY1UlKJweLU",
             "size": 4,
-            "interest": 1,
-            "duration": 20,
-            "overPayment": 0.8,
+            "interest": 0.3,
+            "duration": 21,
+            "overPayment": 0.252,
             "minimal": 0.1
         },
         {
             "verifier": "EQAULOpCXeIAXEmcK2hNeAu-rqli6k0YKSrSKpS7GYIwIhg5",
             "size": 1.5,
-            "interest": 1,
-            "duration": 14,
-            "overPayment": 0.21,
+            "interest": 0.3,
+            "duration": 7,
+            "overPayment": 0.1,
             "minimal": 0.1
         },
         {
             "verifier": "EQDkx-ERNm8dewaId4vPDxKhptchvWS9JzVJIO0Z6BgF8OaG",
             "size": 2,
-            "interest": 1,
-            "duration": 14,
-            "overPayment": 0.28,
+            "interest": 0.3,
+            "duration": 7,
+            "overPayment": 0.1,
             "minimal": 0.1
         },
         {
             "verifier": "EQDXtC4qRiHDwOnmT5uCD2z5m02QDDyJ8_5WMVVNROJ5is_M",
             "size": 15,
-            "interest": 1,
+            "interest": 0.3,
             "duration": 14,
-            "overPayment": 2.1,
-            "minimal": 0.15
+            "overPayment": 0.63,
+            "minimal": 0.1
+        },
+        {
+            "verifier": "EQDATdeWPGnhx01KEUJ8UYwh7lchBOQb4QgxjHgYmFuAAD83",
+            "size": 3.5,
+            "interest": 0.3,
+            "duration": 10,
+            "overPayment": 0.105,
+            "minimal": 0.1
+        },
+        {
+            "verifier": "EQDYEFKT5NqMTpLj6SZ6UHpaO5P6NJbKeXVnL9kEWJmpPYnl",
+            "size": 20,
+            "interest": 0.27,
+            "duration": 14,
+            "overPayment": 0.756,
+            "minimal": 0.1
+        },
+        {
+            "verifier": "EQCAbvyChFoL4FuU_CwWZxUnzaNhMr4a7qWuiLz1jaUcRJ-8",
+            "size": 35,
+            "interest": 0.25,
+            "duration": 14,
+            "overPayment": 1.225,
+            "minimal": 0.1
+        },
+        {
+            "verifier": "EQACkUsNY20M-Dn9fBpEeCuEO2PDqF2zjeokflPAXAEKTOie",
+            "size": 2,
+            "interest": 0.3,
+            "duration": 7,
+            "overPayment": 0.1,
+            "minimal": 0.1
         }
     ],
     "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
