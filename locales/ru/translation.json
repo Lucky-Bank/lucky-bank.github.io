@@ -51,16 +51,20 @@
     "Minimum": "Минимум",
     "For the entire period": "За весь срок",
     "The cost of the loan is calculated per second.": "Стоимость кредита рассчитывается посекундно. Минимальная стоимость одни сутки, но не менее 0,1 TON",
+    "The cost of the loan is calculated per day.": "Стоимость кредита рассчитывается посуточно. Минимальная стоимость одни сутки, но не менее 0,4 USDT",
     "Get": "Получить",
     "Debt": "Задолженность",
     "Extend": "Продлить",
     "Redeem": "Погасить",
     "Search": "Поиск",
     "Clear": "Очистить",
-    "Enter the loan amount TON": "Введите размер кредита TON",
+    "Enter the loan amount": "Введите размер кредита",
     "Not enough funds in the lending pool.": "Недостаточно средств в пуле кредитования.",
     "Minimal bid": "Минимальная ставка",
     "Enter the bid amount TON": "Введите размер ставки TON",
     "Collections": "Коллекции",
-    "Available collections": "Доступные коллекции"
+    "Available collections": "Доступные коллекции",
+    "Buy out": "Выкупить",
+    "Waiting for ransom": "Ожидает выкупа",
+    "Redemption cost": "Стоимость выкупа"
 }

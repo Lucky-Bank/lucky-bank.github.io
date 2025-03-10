@@ -51,16 +51,20 @@
     "Minimum": "Minimum",
     "For the entire period": "For the entire period",
     "The cost of the loan is calculated per second.": "The cost of the loan is calculated per second. The minimum cost is one day, but not less than 0.1 TON",
+    "The cost of the loan is calculated per day.": "The cost of the loan is calculated per day. The minimum cost is one day, but not less than 0.4 USDT",
     "Get": "Get",
     "Debt": "Debt",
     "Extend": "Extend",
     "Redeem": "Redeem",
     "Search": "Search",
     "Clear": "Clear",
-    "Enter the loan amount TON": "Enter the loan amount TON",
+    "Enter the loan amount": "Enter the loan amount",
     "Not enough funds in the lending pool.": "Not enough funds in the lending pool.",
     "Minimal bid": "Minimal bid",
     "Enter the bid amount TON": "Enter the bid amount TON",
     "Collections": "Collections",
-    "Available collections": "Available collections"
+    "Available collections": "Available collections",
+    "Buy out": "Buy out",
+    "Waiting for ransom": "Waiting for ransom",
+    "Redemption cost": "Redemption cost"
 }

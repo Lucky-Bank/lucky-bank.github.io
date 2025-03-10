@@ -9,8 +9,12 @@
         "serverUrl": "https://tonapi.io/v2/"
     },
     "bankAddress": "EQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvSm8",
+    "usdtBankAddress": "EQBh2eSYs3Wu_6nwCMTlKKhXjoNnrtLxY_QSJ_ergQRCHBOK",
+    "usdtMaster": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+    "usdtVerifier": "EQDaRt4S9owrdCKvxu8yHN3E2Lg5ACqRIDXJO4REQtShpxOj",
     "creditCollectionAddress": [
-        "0:6e76d1c7efce5ee2563e498ac8de3f15c09bc03894e7a37739d3be9ba3f1d91f"
+        "0:6e76d1c7efce5ee2563e498ac8de3f15c09bc03894e7a37739d3be9ba3f1d91f",
+        "0:da46de12f68c2b7422afc6ef321cddc4d8b839002a912035c93b844442d4a1a7"
     ],
     "holderCollections": [
         "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
@@ -54,6 +58,48 @@
             }
         }
     ],
+    "onlyHolderRights": {
+        "extend": true
+    },
+    "allowedCustomNftProps": [],
+    "allowedUsdtCollectionsProps": [
+        {
+            "verifier": "EQDQDm-niNLId7KeCirFylwBjw7vmvCz215DGpEDZUldn7aH",
+            "usdt": true,
+            "size": 10,
+            "interest": 0.5,
+            "duration": 10,
+            "overPayment": 0.5,
+            "minimal": 0.4,
+            "address": "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
+            "name": "Lucky NFT",
+            "logo": "https://cache.tonapi.io/imgproxy/s3m_XTTXOhfRywlvebVG1jovlmapx-B6qckK5BBYgcQ/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQzYTc4MDMyMzFlM2JlMjFiMjE5YjcyL2VkaXQvaW1hZ2VzLzY0NjY3MjRhZGZhYThlZTAxM2I1OWI1NS5naWY.webp"
+        },
+        {
+            "verifier": "EQCxw_qLnHdvXY0gX_wQo3q1IGQv0eUvlZ_M9vwRHqns8bGl",
+            "usdt": true,
+            "size": 3.0,
+            "interest": 0.5,
+            "duration": 10,
+            "overPayment": 0.4,
+            "minimal": 0.4,
+            "address": "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f",
+            "name": "Frizie Frona Arts",
+            "logo": "https://cache.tonapi.io/imgproxy/hyFbAE99rCZMoSnaTlUNUxcPSJcZj0qxYMgixLCM4Ms/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQyMzJiMzJmMmU3OWZlMTI4YmE3MjE5L2VkaXQvaW1hZ2VzLzY0MjM1MzU5NGE0M2ExY2RkNGQ5N2I1OC5qcGc.webp"
+        },
+        {
+            "verifier": "EQBSqPhOyS4jBLmxY6Rgj3SK-agcJOmtL7nVALzDI44pd9r_",
+            "usdt": true,
+            "size": 7,
+            "interest": 0.5,
+            "duration": 10,
+            "overPayment": 0.4,
+            "minimal": 0.4,
+            "address": "0:70f7efc07947aaedca914669b7c77c00ffae6a5b57d6941e0961bf275ce1a7e6",
+            "name": "Power of Two",
+            "logo": "https://cache.tonapi.io/imgproxy/g0nVPZTr5fQmVUNicq_d5F2NFBRZ4nz-Q85YK1njTyg/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQ0MmMzNTMwY2I0NDY4ZjZjYjdmYTE4L2F2YXRhci82NDQyYzJlMzBhOTBlMzQwMTVkNmZlZGQucG5n.webp"
+        }
+    ],
     "allowedCollectionsProps": [
         {
             "verifier": "EQAYE5EhcTa8IOfwmyu0CLwjkl6tRThYXk2hCLQ4pfXI66rg",
@@ -76,17 +122,6 @@
             "address": "0:8630bc678964413d319f13a2aed99c33bfa80b2b8dbffdccad4f8f0f7ac55c6f",
             "name": "Frizie Frona Arts",
             "logo": "https://cache.tonapi.io/imgproxy/hyFbAE99rCZMoSnaTlUNUxcPSJcZj0qxYMgixLCM4Ms/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQyMzJiMzJmMmU3OWZlMTI4YmE3MjE5L2VkaXQvaW1hZ2VzLzY0MjM1MzU5NGE0M2ExY2RkNGQ5N2I1OC5qcGc.webp"
-        },
-        {
-            "verifier": "EQACQt-dVeOLeYK0vq_KgLGnxikfEQ06hlNRcmY1UlKJweLU",
-            "size": 4,
-            "interest": 0.3,
-            "duration": 21,
-            "overPayment": 0.252,
-            "minimal": 0.1,
-            "address": "0:70f7efc07947aaedca914669b7c77c00ffae6a5b57d6941e0961bf275ce1a7e6",
-            "name": "Power of Two",
-            "logo": "https://cache.tonapi.io/imgproxy/g0nVPZTr5fQmVUNicq_d5F2NFBRZ4nz-Q85YK1njTyg/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQ0MmMzNTMwY2I0NDY4ZjZjYjdmYTE4L2F2YXRhci82NDQyYzJlMzBhOTBlMzQwMTVkNmZlZGQucG5n.webp"
         },
         {
             "verifier": "EQAULOpCXeIAXEmcK2hNeAu-rqli6k0YKSrSKpS7GYIwIhg5",
@@ -153,6 +188,17 @@
             "address": "0:d50b871fd3f1ad17a7a415b7238ba249626b8715d9e633b422bc7999351d0cd2",
             "name": "daolama.co loans",
             "logo": "https://cache.tonapi.io/imgproxy/o0edj-B--jB1j3Xm0Xp6hzoDOaawYxF9WZ4ReGIOXbw/rs:fill:500:500:1/g:no/aHR0cHM6Ly9uZnQuZGFvbGFtYS5jby9sb2FuL2Rhb2xhbWEuanBn.webp"
+        },
+        {
+            "verifier": "EQACQt-dVeOLeYK0vq_KgLGnxikfEQ06hlNRcmY1UlKJweLU",
+            "size": 4,
+            "interest": 0.3,
+            "duration": 21,
+            "overPayment": 0.252,
+            "minimal": 0.1,
+            "address": "0:70f7efc07947aaedca914669b7c77c00ffae6a5b57d6941e0961bf275ce1a7e6",
+            "name": "Power of Two",
+            "logo": "https://cache.tonapi.io/imgproxy/g0nVPZTr5fQmVUNicq_d5F2NFBRZ4nz-Q85YK1njTyg/rs:fill:500:500:1/g:no/aHR0cHM6Ly9zLmdldGdlbXMuaW8vbmZ0L2MvNjQ0MmMzNTMwY2I0NDY4ZjZjYjdmYTE4L2F2YXRhci82NDQyYzJlMzBhOTBlMzQwMTVkNmZlZGQucG5n.webp"
         },
         {
             "verifier": "EQACkUsNY20M-Dn9fBpEeCuEO2PDqF2zjeokflPAXAEKTOie",
