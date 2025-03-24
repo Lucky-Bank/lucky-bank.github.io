@@ -1,0 +1,83 @@
+{
+    "isTestnet": false,
+    "tonConnectProps": {
+        "manifestUrl": "https://lucky-bank.github.io/public-sale/tonconnect-manifest.json",
+        "twaReturnUrl": "https://lucky-bank.github.io/public-sale/"
+    },
+    "rootUrl": "https://lucky-bank.github.io/public-sale/",
+    "tonApiProps": {
+        "clientSideKey": "AHOPL4UVTX653AIAAAAPQTBMQRXITK7EAVQGZ7LKHHUSJOYTVFIVYJ3S2GM7NU2S7AEYZVA",
+        "serverUrl": "https://tonapi.io/v2/"
+    },
+    "usdtMaster": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+    "holderCollections": [
+        "0:69aa7ae386a9798db30bbcaa1ca8a14bd3f7cc40ec02b434250c214e886f7c59"
+    ],
+    "appNameHeader": {
+        "from": "green",
+        "to": "teal",
+        "deg": 120
+    },
+    "publicSale": {
+        "navLinkName": "$BANK",
+        "saleContractAddress": "EQCEJtncbIKR0ukSrpdsFg63UkI_KCaAYOw6_N673mUASgJu"
+    },
+    "heroPage": {
+        "image": "https://lucky-bank.github.io/meta/lb-pool-token-v-1-0-0-logo.png",
+        "itemsCount": 3
+    },
+    "translates": {
+        "en": {
+            "appName": "$BANK Public Sale",
+            "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
+            "heroPage": {
+                "title": {
+                    "first": "Loan",
+                    "second": "service",
+                    "third": "in the TON network"
+                },
+                "description": "Lucky Bank is a lending service secured by NFT in the TON network. Lucky Bank operates on the decentralized Krediton Lending Tool technology and is part of the Lucky TON ecosystem.",
+                "items": [
+                    {
+                        "main": "Safely",
+                        "desc": "your funds and NFTs are securely protected by smart contracts."
+                    },
+                    {
+                        "main": "Advantageous",
+                        "desc": "low interest rates and network fees for issuing a loan."
+                    },
+                    {
+                        "main": "Passive income",
+                        "desc": "a deposit program has been implemented for holders of the Lucky TON ecosystem."
+                    }
+                ]
+            }
+        },
+        "ru": {
+            "appName": "$BANK Public Sale",
+            "aboutHtml": "<article><h1>Lucky Bank</h1> <p>Allow collection owners to easily integrate a lending tool exclusive to their collection's NFTs.</p><p>Krediton TMA Lending Tool (KLT) allows collection owners (CO) to easily integrate a lending tool exclusive to their collection's NFTs. Krediton seemlessly customises the KLT for a specific collection, which the CO can integrate into their existing community tools. How it works: CO creates an account on Krediton B2B platform. Using a streamlined no-code process, CO builds their own smartcontract-based KLT TMA which they integrate into their existing infrastructure. CO then replenishes their own KLT TON pool (secure by design, with NO external access to funds) from which their holders can obtain automated lending using their NFT as collateral, with a fixed term return. CO thus gains the following advantages: 1. providing holders with a useful lending service, while easily managing risk (in case of non-repayment, they recover their own NFT); 2. lending terms (loan amount, repayment deadline, interest) can take into account the collection's specifics: tier, holder's status (wealth) and any other NFT attributes. Krediton takes a small fixed per-loan fee plus a percentage of profits resulting from KLT use (interest). All other profits go directly to CO.</p></article>",
+            "heroPage": {
+                "title": {
+                    "first": "Сервис",
+                    "second": "кредитования",
+                    "third": "под залог NFT"
+                },
+                "description": "Lucky Bank - сервис кредитования под залог NFT в сети TON. Lucky Bank работает на децентрализованной технологии Krediton Lending Tool и является частью экосистемы Lucky TON.",
+                "items": [
+                    {
+                        "main": "Безопасно",
+                        "desc": "ваши средства и NFT под надёжной защитой смарт-контрактов."
+                    },
+                    {
+                        "main": "Выгодно",
+                        "desc": "небольшие процентные ставки и комиссия сети за выдачу кредита."
+                    },
+                    {
+                        "main": "Пассивный доход",
+                        "desc": "для холдеров экосистемы Lucky TON реализована программа депозитов."
+                    }
+                ]
+            }
+        }
+    }
+}
