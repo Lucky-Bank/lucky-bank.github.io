@@ -64,6 +64,18 @@
     "allowedCustomNftProps": [],
     "allowedUsdtCollectionsProps": [
         {
+            "verifier": "EQBBL0EIMN0InaKiIF78LueuDBbtQiZlLS_UuJE8tGMWB2Q_",
+            "usdt": true,
+            "size": 3.0,
+            "interest": 0.5,
+            "duration": 10,
+            "overPayment": 0.4,
+            "minimal": 0.4,
+            "address": "0:9e7eb8e1083dbfec7448af6966c2df596aa786fed76c781bc00c2ebaf37de405",
+            "name": "Homemade Cakes",
+            "logo": "https://nft.fragment.com/collection/homemadecake.webp"
+        },
+        {
             "verifier": "EQCxw_qLnHdvXY0gX_wQo3q1IGQv0eUvlZ_M9vwRHqns8bGl",
             "usdt": true,
             "size": 3.0,
