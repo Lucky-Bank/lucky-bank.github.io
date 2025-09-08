@@ -115,10 +115,10 @@
     "allowedCollectionsProps": [
         {
             "verifier": "EQAYE5EhcTa8IOfwmyu0CLwjkl6tRThYXk2hCLQ4pfXI66rg",
-            "size": 7,
+            "size": 3,
             "interest": 0.3,
             "duration": 21,
-            "overPayment": 0.441,
+            "overPayment": 0.189,
             "minimal": 0.1,
             "address": "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
             "name": "Lucky NFT",
@@ -137,10 +137,10 @@
         },
         {
             "verifier": "EQACQt-dVeOLeYK0vq_KgLGnxikfEQ06hlNRcmY1UlKJweLU",
-            "size": 4,
+            "size": 2,
             "interest": 0.3,
             "duration": 21,
-            "overPayment": 0.252,
+            "overPayment": 0.126,
             "minimal": 0.1,
             "address": "0:70f7efc07947aaedca914669b7c77c00ffae6a5b57d6941e0961bf275ce1a7e6",
             "name": "Power of Two",
