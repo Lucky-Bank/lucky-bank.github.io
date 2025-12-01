@@ -2,6 +2,6 @@
     "name": "LB Telegram GIFT",
     "description": "LB-GIFT is a 'stablecoin' fully backed by Telegram Gifts and TON. Read more http://t.me/luckybank",
     "symbol": "LB-GIFT",
-    "decimals": "9",
+    "decimals": "6",
     "image": "https://lucky-bank.github.io/meta/lb-gift-logo.png"
 }
