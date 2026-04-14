@@ -68,10 +68,7 @@
     "Buy out": "Выкупить",
     "Waiting for ransom": "Ожидает выкупа",
     "Redemption cost": "Стоимость выкупа",
-    "Buy": "Купить",
-    "Slippage": "Проскальзывание",
-    "Price": "Цена",
-    "Min. receive": "Минимально",
-    "Left": "Осталось",
-    "You are buying": "Вы покупаете"
+    "Total debt": "Задолженность",
+    "Renewal debt": "Продление",
+    "Borrower": "Заёмщик"
 }
