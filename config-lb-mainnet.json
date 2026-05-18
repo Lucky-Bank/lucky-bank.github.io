@@ -8,13 +8,16 @@
         "clientSideKey": "AHOPL4UVTX653AIAAAAPQTBMQRXITK7EAVQGZ7LKHHUSJOYTVFIVYJ3S2GM7NU2S7AEYZVA",
         "serverUrl": "https://tonapi.io/v2/"
     },
+    "tonCenterProps": {
+        "clientSideKey": "469dfe30c9b36a26b45115c09d32a1490443667976f94b64345fedbaf7fd53c9",
+        "serverUrl": "https://toncenter.com/"
+    },
     "bankAddress": "EQDuWhldFshmr2Drf5rlL620FaRhtECKQ4X5W3hRKCuRvSm8",
     "usdtBankAddress": "EQBh2eSYs3Wu_6nwCMTlKKhXjoNnrtLxY_QSJ_ergQRCHBOK",
     "usdtMaster": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
-    "usdtVerifier": "EQDaRt4S9owrdCKvxu8yHN3E2Lg5ACqRIDXJO4REQtShpxOj",
+    "usdtVerifier": "EQB5fnEZSOcYtvWi6qkLd3jJ9-Cw2xkDJd9YLG_mtztDO7Y3",
     "creditCollectionAddress": [
-        "0:6e76d1c7efce5ee2563e498ac8de3f15c09bc03894e7a37739d3be9ba3f1d91f",
-        "0:da46de12f68c2b7422afc6ef321cddc4d8b839002a912035c93b844442d4a1a7"
+        "0:797e711948e718b6f5a2eaa90b7778c9f7e0b0db190325df582c6fe6b73b433b"
     ],
     "holderCollections": [
         "0:e32dab73be0934342973ea5a33fdaa2c7d49edceca4c7c56ba0efa06375821a2",
@@ -62,7 +65,48 @@
         "extend": true
     },
     "allowedCustomNftProps": [],
-    "allowedUsdtCollectionsProps": [],
+    "allowedUsdtCollectionsProps": [
+        {
+            "verifier": "EQCzg543-dzsia8CIpoOAOPbBjmeP_uvwABmjMTcYv3OfXu4",
+            "usdt": true,
+            "size": 3.0,
+            "interest": 0.25,
+            "duration": 15,
+            "address": "0:9e7eb8e1083dbfec7448af6966c2df596aa786fed76c781bc00c2ebaf37de405",
+            "name": "Homemade Cakes",
+            "logo": "https://nft.fragment.com/collection/homemadecake.webp"
+        },
+        {
+            "verifier": "EQAJrZsXAgydHb9cupjvPq-RJBbv4COTh-QwK7k5hJdG_1xU",
+            "usdt": true,
+            "size": 7.0,
+            "interest": 0.25,
+            "duration": 15,
+            "address": "0:03bc9c4cc421c0edf465623a1c7813917fb4702acd2bce355a29ea5000232767",
+            "name": "Top Hats",
+            "logo": "https://nft.fragment.com/collection/tophat.webp"
+        },
+        {
+            "verifier": "EQBHwa2t4B-saeHQIBKtGoeuLASUN5KfeTswbbrE60lnxjvB",
+            "usdt": true,
+            "size": 25.0,
+            "interest": 0.25,
+            "duration": 15,
+            "address": "0:ab180f6c942a24b200fe3724438ed1f248a3744ecf24ea176e78991491965d0f",
+            "name": "Signet Rings",
+            "logo": "https://nft.fragment.com/collection/signetring.webp"
+        },
+        {
+            "verifier": "EQAFSsCS65Yy6WM5QjE67SE6YFv7Q1ZXu1avmCX8QZ_NcRjX",
+            "usdt": true,
+            "size": 4.0,
+            "interest": 0.25,
+            "duration": 15,
+            "address": "0:4c71f300665314af55b75fc91d130ddf24c5006961f8f9772613947945f14863",
+            "name": "Desk Calendars",
+            "logo": "https://nft.fragment.com/collection/deskcalendar.webp"
+        }
+    ],
     "allowedCollectionsProps": [],
     "appNameHeader": {
         "from": "orange",
